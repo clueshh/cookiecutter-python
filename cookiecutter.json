@@ -1,0 +1,9 @@
+{
+  "full_name": null,
+  "email": null,
+  "project_name": "Cookiecutter Python",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_repo_name": "{{ cookiecutter.project_slug.replace('_', '-') }}",
+  "project_short_description": "Cookiecutter template for a Python project",
+  "version": "0.1.0"
+}
