@@ -13,3 +13,23 @@ Generate a Python package project::
 ```bash
 cookiecutter https://github.com/clueshh/cookiecutter-python.git
 ```
+
+### Test the template
+
+Create a file named `cookiecutter-config.yaml` with the following content:
+
+```yaml
+default_context:
+  full_name: "John Doe"
+  email: "john.doe@me.com"
+```
+
+Then run the following command to generate the project:
+
+```bash
+cookiecutter \
+  --no-input \
+  --overwrite-if-exists \
+  --config-file cookiecutter-config.yaml \
+  .
+```
