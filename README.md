@@ -11,7 +11,7 @@ pip install -U cookiecutter
 Generate a Python package project::
 
 ```bash
-cookiecutter https://github.com/clueshh/cookiecutter-python.git
+cookiecutter git@github.com:clueshh/cookiecutter-python.git
 ```
 
 ### Test the template
