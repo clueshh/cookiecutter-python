@@ -1,0 +1,11 @@
+[tool.ruff]
+line-length = 88
+lint.ignore-init-module-imports = true
+lint.extend-select = [
+    "I",  # sort imports
+    "Q",  # force double quotes
+    "TID" # force no relative imports from parent
+]
+
+[tool.ruff.lint.flake8-tidy-imports]
+ban-relative-imports = "all"
